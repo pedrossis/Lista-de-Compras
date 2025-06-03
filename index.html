@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>QuickList</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div id="container">
+        <img src="images/logo.png" alt="">
+        <div class="header">
+            <a href="#">
+                <img src="images/icons/arrow-left.svg" alt="">
+                <span>Voltar</span>
+            </a>
+            <h2>Compras da semana</h2>
+        </div>
+        <form>
+            <div class="add-item">
+                <input type="text" placeholder="Adicione um novo item">
+                <button type="submit">Adicionar item</button>
+            </div>
+            <div id="list">
+                <div class="items">
+                    <input type="checkbox" name="bread" id="bread">
+                    <p>Pão de forma</p>
+                    <img src="images/icons/trash.svg" alt="">
+                </div>
+                <div class="items">
+                    <input type="checkbox" name="coffee" id="coffee">
+                    <p>Café preto</p>
+                    <img src="images/icons/trash.svg" alt="">
+                </div>
+                <div class="items">
+                    <input type="checkbox" name="juice" id="juice">
+                    <p>Suco de laranja</p>
+                    <img src="images/icons/trash.svg" alt="">
+                </div>
+                <div class="items">
+                    <input type="checkbox" name="snack" id="snack">
+                    <p>Bolacha</p>
+                    <img src="images/icons/trash.svg" alt="">
+                </div>
+            </div>
+
+            <div class="danger">
+                <div class="display">
+                    <img src="images/icons/warning.svg" alt="" id="warning">
+                    <label>O item foi removido da lista</label>
+                    <img src="images/icons/delete-small.svg" alt="" id="delete">
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
