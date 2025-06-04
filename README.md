@@ -15,6 +15,7 @@ Este é um projeto simples de uma Lista de Compras desenvolvido em HTML, CSS e J
 ✅ Interface simples e responsiva
 
 🛠️ Tecnologias Utilizadas
+
 HTML5
 
 CSS3
